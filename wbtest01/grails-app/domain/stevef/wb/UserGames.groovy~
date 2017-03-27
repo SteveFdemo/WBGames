@@ -1,0 +1,13 @@
+package stevef.wb
+
+class UserGames {
+
+    String name
+    Float score
+    String level
+    Integer wins
+    Integer losses
+
+    static constraints = {
+    }
+}

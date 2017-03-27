@@ -1,0 +1,11 @@
+package wbtest01
+
+class BootStrap {
+
+    def init = { servletContext ->
+        new stevef.wb.Users(name:"John Doe",email:"john@foo.org").save(failOnError:true)
+	new stevef.wb.Users(name:"Mary Roe",email:"mary@foo.com").save(failOnError:true)
+    }
+    def destroy = {
+    }
+}
