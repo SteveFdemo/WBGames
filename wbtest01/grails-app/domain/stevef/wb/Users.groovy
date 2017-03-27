@@ -8,8 +8,8 @@ class Users {
     String name
     String email
     boolean active
-    List<UserGames> games
-    List<UserAchievements> achievements
+    List<Games> games
+    List<Achievements> achievements
 
     static mapping = {
     }
