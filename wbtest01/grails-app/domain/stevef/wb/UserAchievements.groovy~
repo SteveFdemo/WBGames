@@ -1,9 +1,0 @@
-package stevef.wb
-
-class UserAchievements {
-
-    String achievement
-
-    static constraints = {
-    }
-}
